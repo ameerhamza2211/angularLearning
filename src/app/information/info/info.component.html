@@ -1,0 +1,9 @@
+<section style="margin: 20px; display: flex; gap: 10px;  " >
+  <p-button label="One" (click)="navigateTo('agenda-deatils')"></p-button>
+  <p-button label="Two" severity="success" (click)="navigateTo('attendence-details')"></p-button>
+  <p-button label="Three" severity="warning" (click)="navigateTo('sales-details')"></p-button>
+</section>
+
+<div style="margin: 20px;" >
+<router-outlet></router-outlet>
+</div>
