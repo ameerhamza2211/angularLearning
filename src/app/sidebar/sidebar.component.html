@@ -1,0 +1,6 @@
+@for (item of items; track $index)   {
+<div [routerLink]="item?.route"  style="display: flex; gap: 10px; padding: 10px 0; cursor: pointer;" >
+  <span class="{{item.icon}}"></span>
+  <span>{{item.name}}</span>
+</div>
+}
